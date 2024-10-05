@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    display: flex;
+}
+
+#esquerda {
+    width: 100vh;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#direita {
+    background-color: teal;
+    width: 100vh;
+    height: 100vh;
+    margin: 0;
+
+}
+
+#loginBox {
+    display: flex;
+    text-align: center;
+    width: 364px;
+    font-family: 'Poppins';
+    align-items: center;
+    flex-direction: column;
+}
+
+#loginBox h1 {
+    margin: 0;
+}
+
+#loginBox p {
+    color: #525252;
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+
+input {
+    font-family: 'Poppins';
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 16px;
+    border: none;
+    background-color: #F0EDFF;
+    padding: 1rem;
+}
+
+input::placeholder {
+    color: black;
+}
+
+#divInput {
+    display: grid;
+    width: 100%;
+    gap: 1rem;
+}
