@@ -60,11 +60,13 @@ body {
 }
 
 #emailSenha {
+  margin-top: 44px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 655.05px;
   gap: 28px;
+  flex-direction: column;
 }
 
 #email {
@@ -76,7 +78,6 @@ body {
   border: 1px solid #676666;
   width: 100%;
   height: 55px;
-  flex-direction: column;  
 }
 
 #password {
@@ -88,5 +89,41 @@ body {
   border: 1px solid #676666;
   width: 100%;
   height: 55px;
-  flex-direction: column;  
+}
+
+#divButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 655.05px;
+}
+
+#divButton button {
+  padding: 0;
+  width: 100%;
+  height: 55px;
+  margin-top: 28px;
+  border-radius: 16px;
+  border: none;
+  color: white;
+  font-family: "Poppins";
+  font-weight: bold;
+  background: linear-gradient(to left, #e22121, #f76464);
+}
+
+#divButton button:hover {
+  cursor: pointer;
+  background: #960f0f;
+  transform: scale(1.03);
+}
+
+#embaixoBotao {
+  align-self: flex-start;
+  color: #676666;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+#embaixoBotao p {
+  margin: 0;
 }
