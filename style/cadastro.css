@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  display: flex;
+}
+
+#esquerda {
+  width: 50%;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, #ef3636, #ff9898);
+}
+
+#direita {
+  font-family: "Poppins";
+  font-size: 18px;
+  height: 100vh;
+  width: 70%;
+  margin: 0;
+  overflow: hidden;
+}
+
+#cadastroBox {
+  text-align: left;
+  margin: 153px 78.95px 205px 226px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  width: 655.05px;
+  flex-direction: column;
+}
+
+#cadastroBox h1 {
+  color: #212121;
+  margin: 0 0 48px 0;
+  align-self: flex-start;
+}
+
+#inputNome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 655.05px;
+  gap: 28px;
+}
+
+#inputNome input {
+  padding-left: 16px;
+  color: #676666;
+  font-family: "Poppins";
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid #676666;
+  height: 55px;
+  width: 312.52px;
+}
+
+#emailSenha {
+  margin-top: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 655.05px;
+  gap: 28px;
+  flex-direction: column;
+}
+
+#email {
+  padding-left: 16px;
+  color: #676666;
+  font-family: "Poppins";
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid #676666;
+  width: 100%;
+  height: 55px;
+}
+
+#password {
+  padding-left: 16px;
+  color: #676666;
+  font-family: "Poppins";
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid #676666;
+  width: 100%;
+  height: 55px;
+}
+
+#divButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 655.05px;
+}
+
+#divButton button {
+  padding: 0;
+  width: 100%;
+  height: 55px;
+  margin-top: 28px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-family: "Poppins";
+  font-weight: bold;
+  background: linear-gradient(to left, #e22121, #f76464);
+}
+
+#divButton button:hover {
+  cursor: pointer;
+  background: #960f0f;
+  transform: scale(1.03);
+}
+
+#embaixoBotao {
+  align-self: flex-start;
+  color: #676666;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+#embaixoBotao p {
+  margin: 0;
+}
+
+#hrOu {
+  margin-top: 44px;
+  width: 655.05px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hrOu hr {
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  height: 1px;
+  background: #D1D1D1;
+}
+
+#hrOu p {
+  color: #676666;
+  padding: 0 16px;
+}
